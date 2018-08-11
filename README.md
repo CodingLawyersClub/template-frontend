@@ -15,7 +15,13 @@ You can view a live demo over at https://react-mobx.realworld.io/
 
 To get the frontend running locally:
 
-- Clone this repo
+- Fork this repo and clone the fork
+- In the root directory, add a `.env` file. Add the following to the file:
+
+```
+REACT_APP_DECORATORS=true
+```
+
 - `yarn` to install all req'd dependencies
 - `yarn dev` to start the local server (this project uses create-react-app)
 
